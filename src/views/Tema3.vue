@@ -22,8 +22,8 @@
           .titulo-segundo
             h2 3.1 Estructura básica de un manual de identidad corporativa
           p A continuación, se indican las figuras retóricas más utilizadas en la publicidad, relacionando algunos ejemplos escritos y visuales que se destacan. Lo cual, es basado en el sitio web Retoricas.com (2009) y la recopilación que hace la profesora de lenguaje y comunicación Mónica San Martín:
-          a.boton.me-3.indicador__container.fcst.texto-blanco(
-            :href="obtenerLink('/downloads/prueba.pdf')"
+          a.boton.me-3.indicador__container(
+            :href="obtenerLink('/downloads/manual_de_identidad.pdf')"
             target="_blank"
             type="application/pdf"
             @mouseover="mostrarIndicador = false"

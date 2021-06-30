@@ -346,7 +346,8 @@
         img(src='@/assets/curso/t1/f16.svg',alt='Manos escribiendo sobre papel')
     .col-lg-4.mx-auto
       h4.text-center.fcp.texto-blanco Características de un ícono abstracto:
-    Carrusel.mb-5(:datos="datosCarrusel")
+    Carrusel.mb-4 //(:datos="datosCarrusel")
+    p.mb-5 Fuente de imágenes: SENA (2020)
     p.mb-5 Estas formas básicas se pueden interpretar en el diseño de algunas marcas registradas:
     .row.align-items-start.mb-4.px-5
       .col-lg-3.mb-4
@@ -464,7 +465,7 @@
       .row(numero="1" titulo="Sistema CMYK")
         .col-lg-8
           p Son las siglas en inglés de los colores cian, magenta, amarillo y negro, que son las cuatro tintas utilizadas en el proceso de impresión por cuatricromía. La combinación de estos colores en diferentes proporciones da como resultado todos los colores y matices. El sistema CMYK es sustractivo, puesto que los colores secundarios y terciarios se sustraen de la combinación de los primarios entre sí o de estos con los secundarios.
-          a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.anexo.mb-4(:href="obtenerLink('/downloads/paletacolores.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto

@@ -11,6 +11,11 @@ Vue.prototype.$config = config
 const packageJson = require('../package.json')
 Vue.prototype.$package = packageJson
 
+import VueGlide from 'vue-glide-js'
+import 'vue-glide-js/dist/vue-glide.css'
+
+Vue.use(VueGlide)
+
 new Vue({
   router,
   store,

@@ -1,0 +1,118 @@
+$purpura-medio: #7d6eb2
+$gris-clarito: #cbc5e0
+$purpura-clarito: #CBC6DF56
+$casi-blanco: #f6f6f6
+$grisd3: #d3d3d3
+
+.brd
+  border-right: dashed 2px rgba(0,0,0,.32 )
+
+ul.color-primario
+  p
+    margin-left: 1rem
+    line-height: 1.2
+    margin-bottom: 0
+  li
+    padding-bottom: 10px
+    padding-top: 5px
+    i
+      color: $color-primario !important
+      top: 0 !important
+
+ul.color-acento-contenido
+  p
+    margin-left: 1rem
+    line-height: 1.2
+    margin-bottom: 0
+  li
+    padding-bottom: 10px
+    padding-top: 5px
+    i
+      color: $color-acento-contenido !important
+      top: 0 !important
+
+._6rem
+  width: 6rem
+  margin-bottom: 2rem
+
+.tarjeta.color-gris--borde
+  background-color: #fafafa
+  color: $color-sistema-texto
+  border: solid 4px rgba(18,38,63,.13)
+
+.tabs-a__tab
+  background-color: #e8e8e8 !important
+  &:hover
+    background-color: $color-acento-contenido !important  
+  &__selected
+    background-color: $color-acento-contenido !important
+    color: $color-sistema-texto !important
+
+//gradientes
+$gradiente1: $purpura-medio 0%, $gris-clarito 100%
+$gradiente2: $grisd3 0%,$white 100%
+@mixin gradient($direction, $list)
+  background: -webkit-linear-gradient($direction, $list)
+  background: -moz-linear-gradient($direction, $list)
+  background: -o-linear-gradient($direction, $list)
+  background: linear-gradient($direction, $list)
+
+.cajon.color-acento-contenido
+  background-color: rgba(222,242,244,.81) !important
+
+.cajon.color-primario
+  background-color: rgba(239,237,246,.81) !important
+
+.text-left
+  text-align: left !important
+
+.g1
+  @include gradient(90deg, $gradiente1)
+  &-i
+    @include gradient(0deg, $gradiente1)
+    &::before
+      right: 50% !important
+      left: 0 !important
+
+.g2
+  @include gradient(0deg, $gradiente2)
+  &-i
+    @include gradient(0deg, $gradiente2)
+    &::before
+      right: 50% !important
+      left: 0 !important
+
+// Carrusel Vue
+$vue-navy: #2c3e50
+$vue-navy-light: #3a5169
+$vue-teal: #42b883
+$vue-teal-light: #42b983
+$gray: #666a73
+$light-gray: #f8f8f8
+
+.card-carousel-wrapper
+  display: flex
+  align-items: center
+  justify-content: center
+  margin: 20px 0 40px
+  color: $gray
+
+.fcp
+  background-color: $color-primario
+  padding: 1rem
+
+.bbg
+  background-color: $color-sistema-texto
+
+.fcb
+  background-color: #fafafa
+
+.p-2
+  margin-bottom: 48px
+
+.fcd
+  background-color: rgba(192,226,227,.45) !important
+  border-radius: 1rem
+
+.fcst
+  background-color: $color-sistema-texto !important

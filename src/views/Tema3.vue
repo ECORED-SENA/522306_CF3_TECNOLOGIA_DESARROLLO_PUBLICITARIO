@@ -14,13 +14,13 @@
       .col-lg-4
         img(src='@/assets/curso/t3/f1.svg',alt='Personas diseñando')
     p.mb-5 Cuando se diseña un manual de identidad corporativa hay que ver la empresa desde todos los frentes posibles, pues como todo manual, este debe resolver problemas básicos para casi todos los departamentos de la compañía. Por ejemplo, los contadores necesitan papelería comercial, los vendedores requieren de catálogos y cotizaciones, los administradores membretes y plantillas de presentaciones, en producción requieren uniformes, rotulación de espacios y maquinaria; por obvias razones, en mercadeo y comunicación es necesario el uso permanente de este manual. Es por eso que resulta importante tener claro qué tipo de empresa requiere el manual y qué necesidades debe satisfacer.
+    #t_3_1.titulo-segundo
+      h2 3.1 Estructura básica de un manual de identidad corporativa
     .container.fcd.p-5.mb-5
       .row.align-items-center
         .col-lg-4.mx-auto
           img(src='@/assets/curso/infografias.svg',alt='Infografía')
         .col-lg-7
-          #t_3_1.titulo-segundo
-            h2 3.1 Estructura básica de un manual de identidad corporativa
           p A continuación, se indican las figuras retóricas más utilizadas en la publicidad, relacionando algunos ejemplos escritos y visuales que se destacan. Lo cual, es basado en el sitio web Retoricas.com (2009) y la recopilación que hace la profesora de lenguaje y comunicación Mónica San Martín:
           a.boton.me-3.indicador__container(
             :href="obtenerLink('/downloads/manual_de_identidad.pdf')"

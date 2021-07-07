@@ -18,7 +18,7 @@
           img(src='@/assets/curso/t1/f1.svg',alt='Persona diseñando')
     Separador
     #t_1_2.titulo-segundo
-      h2 1.2 Concepto de Identidad corporativa
+      h2 1.2 Concepto de identidad corporativa
     p El concepto de identidad corporativa puede ser muy diverso, dependiendo del punto de vista del que se plantee; sin embargo, existen ciertos elementos comunes que se deben tener en cuenta para comprenderlo:
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Es un diferenciador de la empresa")
@@ -492,6 +492,7 @@
                   p Paletton
         .col-lg-3.mx-auto
           img(src='@/assets/curso/t1/f36.svg',alt='Persona diseñando')
+    h3 Psicología del color
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/UWSe5bCGNhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

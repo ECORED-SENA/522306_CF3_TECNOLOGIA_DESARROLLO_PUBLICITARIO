@@ -19,7 +19,7 @@
         .col-lg-4.mx-auto
           img(src='@/assets/curso/infografias.svg',alt='Infografía')
         .col-lg-7
-          .titulo-segundo
+          #t_3_1.titulo-segundo
             h2 3.1 Estructura básica de un manual de identidad corporativa
           p A continuación, se indican las figuras retóricas más utilizadas en la publicidad, relacionando algunos ejemplos escritos y visuales que se destacan. Lo cual, es basado en el sitio web Retoricas.com (2009) y la recopilación que hace la profesora de lenguaje y comunicación Mónica San Martín:
           a.boton.me-3.indicador__container(
@@ -31,7 +31,7 @@
             span Descargar
             i.fas.fa-file-download
             .indicador--click(v-if="mostrarIndicador")
-    .titulo-segundo
+    #t_3_2.titulo-segundo
       h2 3.2 Medios de entrega y de difusión
     .bloque-texto-a.p-4.mb-5.color-primario.g2-i
       .row.align-items-center

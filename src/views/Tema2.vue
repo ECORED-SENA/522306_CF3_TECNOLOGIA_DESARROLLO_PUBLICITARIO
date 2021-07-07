@@ -21,7 +21,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/OHSkXnj0F5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video
     Separador
-    #t_2_1.titulo-segundo
+    #t_2_2.titulo-segundo
       h2 2.2 Manejo de Illustrator
     h3 Espacio de trabajo
     p.mb-5 El área de trabajo de Illustrator abarca todo lo que se ve cuando se abre por primera vez o se crea un documento: el panel de herramientas, la ventana de documento, la mesa de trabajo y los paneles. Se puede personalizar y guardar el espacio de trabajo para adaptarse al estilo de trabajo.

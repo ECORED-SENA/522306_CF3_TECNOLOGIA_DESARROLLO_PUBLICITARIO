@@ -210,7 +210,6 @@ export default {
     {
       referencia:
         'Orozko. M. (s. f.). 13 Manuales de Marca para Inspirarte. Sirope. Consultado el 04 de junio de 2020.',
-      link: 'https://cutt.ly/9yVPfck',
     },
     {
       referencia:
@@ -333,6 +332,11 @@ export default {
         cargo: 'Líder del equipo',
         centro: 'Dirección General',
       },
+      {
+        nombre: 'Gloria Matilde Lee Mejía',
+        cargo: 'Líder del equipo',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
     ],
     contenidoInstruccional: [
       {
@@ -350,13 +354,13 @@ export default {
         nombre: 'Andrés Felipe Velandia Espitia',
         cargo: 'Diseñador instruccional',
         centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
-      } /*
+      },
       {
         nombre: 'Vilma Lucía Perilla Méndez',
         cargo: 'Evaluadora instruccional',
         centro:
           'Centro para la Industria y la Comunicación Gráfica – Regional Distrito Capital',
-      },*/,
+      },
       {
         nombre: 'Julieth Paola Vital López',
         cargo: 'Evaluadora instruccional',
@@ -383,7 +387,19 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
+        nombre: 'José Jaime Luis Tang Pinzón',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
         nombre: 'Walter Roa Serrano',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Edgar Mauricio Cortés',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -440,6 +456,21 @@ export default {
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Brayan Steven Pinto Díaz',
+        cargo: 'Validación de recursos',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Edilson Laverde Molina',
+        cargo: 'Validación de recursos',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Ricardo Alfonso González Vargas',
+        cargo: 'Validación de recursos',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],

@@ -323,7 +323,7 @@ export default {
     {
       texto: 'Orozko, M. (s. f.). 13 Manuales de Marca para Inspirarte.',
       tipo: 'Página web',
-      link: 'https://cutt.ly/9yVOv6Q',
+      link: 'https://sirope.es/branding/manual-de-marca-inspirar/',
     },
   ],
   creditos: {
@@ -350,16 +350,16 @@ export default {
         nombre: 'Andrés Felipe Velandia Espitia',
         cargo: 'Diseñador instruccional',
         centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
-      },
+      } /*
       {
         nombre: 'Vilma Lucía Perilla Méndez',
         cargo: 'Evaluadora instruccional',
         centro:
           'Centro para la Industria y la Comunicación Gráfica – Regional Distrito Capital',
-      },
+      },*/,
       {
         nombre: 'Julieth Paola Vital López',
-        cargo: 'Correctora de estilo',
+        cargo: 'Evaluadora instruccional',
         centro:
           'Centro para la Industria y la Comunicación Gráfica – Regional Distrito Capital',
       },
@@ -392,6 +392,18 @@ export default {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Camilo Andrés Villamizar Lizcano',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Nelson Iván Vera Briceño',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Wilson Andrés Arenales Caceres',
